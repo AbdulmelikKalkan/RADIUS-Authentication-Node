@@ -29,8 +29,6 @@ associated with the module; 0 is the lowest (and the default).
 
 
 ## To Build
-The code in this repository has binary dependencies that live in the ForgeRock maven repository. Maven can be configured to authenticate to this repository by following the following [ForgeRock Knowledge Base Article](https://backstage.forgerock.com/knowledge/kb/article/a74096897)
-
 Edit the necessary RadiusNode.java as appropriate. To rebuild, run "mvn clean install" in the directory containing the pom.xml
 
 ![ScreenShot](./Radius.png)
