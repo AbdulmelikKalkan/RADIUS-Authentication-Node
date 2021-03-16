@@ -1,6 +1,6 @@
 # Radius Server Node
 
-A Radius Server Authentication node for Forgerock's Access Manager 6.5.2 and above.
+A Radius Server Authentication node for ForgeRock's Access Manager 6.5.2 and above.
 The Remote Authentication Dial-In User Service (RADIUS) authentication node lets AM authenticate users against RADIUS servers.
 
 
@@ -19,7 +19,7 @@ The local server name is the full name of the server from the list of servers an
 - **Port Number:** Port number on which the RADIUS server is listening.
 - **Timeout:** Amount of time in seconds to wait for the RADIUS server response.
 This sets the SO_TIMEOUT timeout on the packet.
-- **Health chech interval:** The interval between checks to unavailable RADIUS servers, in minutes.
+- **Health check interval:** The interval between checks to unavailable RADIUS servers, in minutes.
 Determines how often OpenAM checks an offline server's status. The check will send an invalid authentication request to
 the RADIUS server. Offline servers will not be used until the healthcheck was successful. Primary servers that become available will be
 used in preference to secondary servers.
@@ -35,7 +35,7 @@ Edit the necessary RadiusNode.java as appropriate. To rebuild, run "mvn clean in
 
 ![ScreenShot](./Radius.png)
 
-## Discleaimer
+## Disclaimer
 The sample code described herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. 
 ForgeRock does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in production configurations.
 
